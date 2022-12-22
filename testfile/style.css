@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 110px;
+}
+
+body,
+p,
+h3,
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	background-color: #EDF2EC;
+}
+
+.logo {
+  
+}
+
+nav {
+	
+}
+
+.nav-top {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.link {
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	transition: 0.2s;
+
+	color: #010201;
+}
+
+.link:hover {
+	color: #E06733;
+
+	font-weight: 700;
+}
+
+header>.wrapper {
+	display: flex;
+	justify-content: space-between;
+	
+}
