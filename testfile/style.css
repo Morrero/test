@@ -21,9 +21,7 @@ header {
 	background-color: #EDF2EC;
 }
 
-.logo {
-	
-}
+.logo {}
 
 nav {
 	width: 451px;
@@ -38,7 +36,7 @@ nav {
 }
 
 .nav-top-top {
-  list-style: none;
+	list-style: none;
 	display: flex;
 	justify-content: space-between;
 	padding: 0;
@@ -63,4 +61,3 @@ nav {
 	color: #E06733;
 	font-weight: 700;
 }
-
