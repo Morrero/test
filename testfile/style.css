@@ -22,17 +22,28 @@ header {
 }
 
 .logo {
-  
+	
 }
 
 nav {
-	
+	width: 451px;
 }
 
 .nav-top {
 	list-style: none;
 	display: flex;
 	padding: 0;
+	justify-content: space-between;
+	margin-top: -10px;
+}
+
+.nav-top-top {
+  list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+	padding-top: 52px;
 }
 
 .link {
@@ -50,12 +61,6 @@ nav {
 
 .link:hover {
 	color: #E06733;
-
 	font-weight: 700;
 }
 
-header>.wrapper {
-	display: flex;
-	justify-content: space-between;
-	
-}
