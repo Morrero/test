@@ -21,9 +21,12 @@ header {
 	background-color: #EDF2EC;
 }
 
+.logo {
+	
+}
+
 nav {
 	width: 451px;
-	
 }
 
 .nav-top {
@@ -31,6 +34,16 @@ nav {
 	display: flex;
 	padding: 0;
 	justify-content: space-between;
+	margin-top: -10px;
+}
+
+.nav-top-top {
+  list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+	padding-top: 52px;
 }
 
 .link {
@@ -51,9 +64,3 @@ nav {
 	font-weight: 700;
 }
 
-header>.wrapper {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 22px;
-	
-}
