@@ -21,11 +21,8 @@ header {
 	background-color: #EDF2EC;
 }
 
-.logo {
-  
-}
-
 nav {
+	width: 451px;
 	
 }
 
@@ -33,6 +30,7 @@ nav {
 	list-style: none;
 	display: flex;
 	padding: 0;
+	justify-content: space-between;
 }
 
 .link {
@@ -50,12 +48,12 @@ nav {
 
 .link:hover {
 	color: #E06733;
-
 	font-weight: 700;
 }
 
 header>.wrapper {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 22px;
 	
 }
